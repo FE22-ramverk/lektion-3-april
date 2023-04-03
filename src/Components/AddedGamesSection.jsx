@@ -3,7 +3,7 @@ import { GamesContext } from "../App";
 import GameCard from "./GameCard";
 
 function AddedGamesSection() {
-    const games = useContext(GamesContext);
+    const [games] = useContext(GamesContext);
     return ( 
         <section className="addedGamesSection">
             <h2>ADDED GAMES</h2>

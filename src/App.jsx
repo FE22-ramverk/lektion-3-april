@@ -20,7 +20,7 @@ function App() {
 
   return (
     <div className="App">
-      <GamesContext.Provider value={games}>
+      <GamesContext.Provider value={[games, setGames]}>
         <Header title="FAVE GAMES" />
         <AddGameSection />
         <AddedGamesSection />

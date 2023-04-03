@@ -7,7 +7,7 @@ figure {
     height: 200px;
 }
 
-.gameCardContainer {
+.container {
     display: flex;
     flex-direction: column;
     justify-content: center;

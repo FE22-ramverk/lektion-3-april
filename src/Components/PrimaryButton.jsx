@@ -1,6 +1,6 @@
 function PrimaryButton(props) {
     return ( 
-        <button>{props.title}</button>
+        <button onClick={(e) => {props.action(e)}}>{props.title}</button>
      );
 }
 
