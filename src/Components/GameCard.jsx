@@ -1,9 +1,10 @@
-function GameCard() {
+function GameCard({game}) {
+    const {title, url} = game;
     return ( 
         <article>
-            <figure></figure>
+            <figure style={{backgroundImage: `url(${url})`}}></figure>
             <section>
-                <h3></h3>
+                <h3>{title}</h3>
             </section>
         </article>
      );
