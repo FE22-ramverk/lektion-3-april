@@ -1,0 +1,24 @@
+figure {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    width: 200px;
+    height: 200px;
+}
+
+.gameCardContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    color: black;
+}
+
+#title {
+    color: hotpink;
+}
+
+.article {
+    color: hotpink;
+}
